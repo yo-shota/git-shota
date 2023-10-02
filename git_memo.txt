@@ -1,0 +1,38 @@
+https://github.com/yo-shota/git-yoshikawa.git
+
+echo "# git-yoshikawa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yo-shota/git-yoshikawa.git
+git push -u origin main
+
+git remote add origin https://github.com/yo-shota/git-yoshikawa.git
+git branch //ブランチ名の確認
+git branch -M main //ブランチ名の変更
+git push -u origin main
+
+・作成フォルダ
+ローカルリポジトリ（クライアントでの変更内容を保存するフォルダのこと。git init で.git"というフォルダができる）
+→.git
+
+リモートリポジトリ（GitHub上のリポジトリ）
+→origin = https://github.com/yo-shota/git-yoshikawa.git
+ ※originという名前は、"git remote add origin https://github.com/yo-shota/git-yoshikawa.git"を実行したときに自動的に設定される
+ブランチ
+
+
+・push（リモートリポジトリへ反映）までの流れ
+修正
+ ↓
+add   ：修正したファイルを保存対象にする。
+ ↓
+commit：addしたファイルを保存（save）する
+ ↓
+push　：commitしたファイルをリモートリポジトリへ反映する
+
+・よく使うコマンド
+git add .
+git commit -m
+git push origin main
