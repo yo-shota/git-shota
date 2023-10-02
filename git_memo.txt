@@ -20,8 +20,11 @@ git push -u origin main
 リモートリポジトリ（GitHub上のリポジトリ）
 →origin = https://github.com/yo-shota/git-yoshikawa.git
  ※originという名前は、"git remote add origin https://github.com/yo-shota/git-yoshikawa.git"を実行したときに自動的に設定される
-ブランチ
 
+ブランチ
+→branch
+
+※git push  origin main  //originというリモートリポジトリの main というブランチにpushする
 
 ・push（リモートリポジトリへ反映）までの流れ
 修正
