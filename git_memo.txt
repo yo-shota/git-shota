@@ -39,3 +39,11 @@ push　：commitしたファイルをリモートリポジトリへ反映する
 git add .
 git commit -m
 git push origin main
+
+HTMLファイル　のコマンド
+!→[tab]でHTMLのひながたを設定
+
+GitHub Copiotのコマンド
+[tab]で補完内容を確定
+[esc]で補完内容を無視する
+
